@@ -1,0 +1,11 @@
+{
+    "name": "greeter-bot",
+    "version": "1.0.0",
+    "description": "beep boop",
+    "main": "bot.js",
+    "author": "manel.hidalgo",
+    "dependencies": {
+        "discord.js": "latest",
+        "logger": "latest"
+    }
+}
