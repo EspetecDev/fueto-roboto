@@ -7,5 +7,8 @@
     "dependencies": {
         "discord.js": "latest",
         "logger": "latest"
+    },
+    "scripts": {
+        "prestart": "npm install"
     }
 }
