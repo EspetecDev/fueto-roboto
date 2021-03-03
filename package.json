@@ -8,6 +8,9 @@
         "discord.js": "latest",
         "logger": "latest"
     },
+    "engines": {
+        "node": "14.x"
+    },
     "scripts": {
         "prestart": "npm install",
         "start": "node bot.js"
