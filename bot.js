@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const auth = require('./auth.json');
 const Games = require('./games.json');
 const client = new Discord.Client();
 
@@ -37,4 +36,4 @@ client.on('message', msg => {
   }
 });
 
-client.login(auth.token);
+client.login(process.env.token);
