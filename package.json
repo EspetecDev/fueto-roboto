@@ -9,6 +9,7 @@
         "logger": "latest"
     },
     "scripts": {
-        "prestart": "npm install"
+        "prestart": "npm install",
+        "start": "node bot.js"
     }
 }
