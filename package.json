@@ -6,7 +6,8 @@
     "author": "manel.hidalgo",
     "dependencies": {
         "discord.js": "latest",
-        "logger": "latest"
+        "logger": "latest",
+        "pg": "latest"
     },
     "engines": {
         "node": "14.x"

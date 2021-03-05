@@ -27,6 +27,10 @@ client.on('message', msg => {
       case "saltaloconejo":
         msg.react('🐰');  
         break;
+      case "linamicro":
+        msg.channel.send("Lina loca bajate el micro :D", {files: ["https://www.show.news/__export/1592610824135/sites/debate/img/2020/06/19/meme_tenemos_bugs_bunny_x2x_crop1592610693382.jpg_1902800913.jpg"]});
+        msg.react('🐰');  
+        break;
       case "games":
         msg.channel.reply("Current games:")       
         break;
