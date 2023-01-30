@@ -1,19 +1,16 @@
 {
-    "name": "fueto-roboto",
-    "version": "1.0.0",
-    "description": "beep boop",
-    "main": "bot.js",
-    "author": "manel.hidalgo",
-    "dependencies": {
-        "discord.js": "latest",
-        "logger": "latest",
-        "pg": "latest"
-    },
-    "engines": {
-        "node": "14.x"
-    },
-    "scripts": {
-        "prestart": "npm install",
-        "start": "node bot.js"
-    }
+  "name": "fueto-roboto",
+  "version": "0.1.0",
+  "description": "besto roboto interneto",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Espetec",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "glob": "^8.1.0"
+  }
 }

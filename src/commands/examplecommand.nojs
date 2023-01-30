@@ -1,0 +1,10 @@
+module.exports = {
+    DESCRIPTION: "pingooooo",
+    PERMISSIONS: [],
+    BOT_PERMISSIONS: [],
+    OWNER: false,
+
+    async execute(client, message, args, prefix){
+        return message.reply(`\`${client.ws.ping}ms\``);
+    }
+}
