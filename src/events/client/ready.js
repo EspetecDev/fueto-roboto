@@ -6,3 +6,4 @@ module.exports = client => {
         console.log(`${client.slashCommands.size} published slash commands`);
     }
 }
+

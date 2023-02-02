@@ -39,7 +39,7 @@ module.exports = {
                     .addFields({name: `**>> Reload <<**`, value: `** ${optionStr} successfully reloaded**`})
                     .setColor(parseInt(process.env.COLOR.replace(/^#/, ''), 16))
                 ]
-            })
+            });
         } catch (e) {
             message.reply({content: `**Something went wrong reloading files*`});
             console.log(e);
