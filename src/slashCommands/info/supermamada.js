@@ -14,7 +14,7 @@ module.exports = {
         player.on(AudioPlayerStatus.Playing, () => { console.log('audio player: playing')});
         player.on('error', error => { console.log(`error: ${error}`)});
 
-        const resource = createAudioResource('G:\\Dev\\fueto-roboto\\media\\sounds\\smg.mp3');
+        const resource = createAudioResource('..\\..\\..\\..\\media\\sounds\\smg.mp3');
         player.play(resource);
 
         const connection = joinVoiceChannel({
